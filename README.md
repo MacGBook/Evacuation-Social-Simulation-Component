@@ -38,3 +38,6 @@ Each of the 30 default agents has a core personality prompt (ex: agent_11_descri
 (2) Allowing user to specify what type of warning agents are receiving (WEA, flood warning, tornado warning)\
 (3) Allow user to set the total number of runs they want to complete and save multiple runs to CSV
 (4) Improving efficiency of multiple runs 
+
+#TERMINAL COMMANDS FOR MULTIPLE RUNS
+for i in {1..3}; do python main.py; done
