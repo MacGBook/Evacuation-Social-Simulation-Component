@@ -29,181 +29,181 @@ agent_response_list = []
 #AGENT FRAMEWORK AND INDIVIDUAL LLM FRAMEWORK
 
 # AGENT 1
-agent_1_description = "You are just a little guy. "
-agent1_prompt = agent_1_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_1_description = "You are a resident of Manteo, North Carolina. You are elderly, and have a disability with high medical needs that makes you wheelchair bound. Mobility is difficult for you physically and with regards to transportation. "
+agent1_prompt = agent_1_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent1_response = generate_text(current_model, agent1_prompt)
 agent_response_list.append(agent1_response)
 
 # AGENT 2
-agent_2_description = "You are just a little guy. "
-agent2_prompt =  agent_2_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_2_description = "You are a resident of Manteo, North Carolina. You are elderly. "
+agent2_prompt =  agent_2_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent2_response = generate_text(current_model, agent2_prompt)
 agent_response_list.append(agent2_response)
 
 # AGENT 3
-agent_3_description = "You are just a little guy. "
-agent3_prompt =  agent_3_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_3_description = "You are a resident of Manteo, North Carolina. You are elderly, so daily tasks are more difficult for you than most people. "
+agent3_prompt =  agent_3_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent3_response = generate_text(current_model, agent3_prompt)
 agent_response_list.append(agent3_response)
 
 # AGENT 4
-agent_4_description = "You are just a little guy. "
-agent4_prompt =  agent_4_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_4_description = "You are a resident of Manteo, North Carolina. You currently have a family member who is on life support at the local hospital that you care about deeply. "
+agent4_prompt =  agent_4_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent4_response = generate_text(current_model, agent4_prompt)
 agent_response_list.append(agent4_response)
 
 # AGENT 5
-agent_5_description = "You are just a little guy. "
-agent5_prompt =  agent_5_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_5_description = "You are a resident of Manteo, North Carolina. You have a medical disability and rely heavily on your doctors and care team at the local hospital. You are not in the hospital now, but often need urgent medical care from people who understand your condition. "
+agent5_prompt =  agent_5_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent5_response = generate_text(current_model, agent5_prompt)
 agent_response_list.append(agent5_response)
 
 # AGENT 6
-agent_6_description = "You are just a little guy. "
-agent6_prompt =  agent_6_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_6_description = "You are a resident of Manteo, North Carolina. You have a medical disability that makes mobility difficult. You rely on a walker to get around and also need weekly physical therapy at the local hospital. "
+agent6_prompt =  agent_6_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent6_response = generate_text(current_model, agent6_prompt)
 agent_response_list.append(agent6_response)
 
 # AGENT 7
-agent_7_description = "You are just a little guy. "
-agent7_prompt =  agent_7_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_7_description = "You are a resident of Manteo, North Carolina. You are homeless and are heavily impacted by the weather. Your daily needs are barely met and you don’t have much money for transportation. "
+agent7_prompt =  agent_7_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent7_response = generate_text(current_model, agent7_prompt)
 agent_response_list.append(agent7_response)
 
 # AGENT 8
-agent_8_description = "You are just a little guy. "
-agent8_prompt =  agent_8_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_8_description = "You are a resident of Manteo, North Carolina. You live on the outskirts of town, but often rely on public transportation to get out of the area. As such, you are distanced from being able to get urgent transportation. "
+agent8_prompt =  agent_8_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent8_response = generate_text(current_model, agent8_prompt)
 agent_response_list.append(agent8_response)
 
 # AGENT 9
-agent_9_description = "You are just a little guy. "
-agent9_prompt =  agent_9_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_9_description = "You are a resident of Manteo, North Carolina. You are a student living near one of the local laboratories and don’t have a car. You rely heavily on public transportation. "
+agent9_prompt =  agent_9_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent9_response = generate_text(current_model, agent9_prompt)
 agent_response_list.append(agent9_response)
 
 # AGENT 10
-agent_10_description = "You are just a little guy. "
-agent10_prompt =  agent_10_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_10_description = "You are a resident of Manteo, North Carolina. You first language is Spanish, and you have a limited understanding of English. All responses you write should be either in Spanish or in very simple English. "
+agent10_prompt =  agent_10_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent10_response = generate_text(current_model, agent10_prompt)
 agent_response_list.append(agent10_response)
 
 # AGENT 11
-agent_11_description = "You are just a little guy. "
-agent11_prompt =  agent_11_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_11_description = "You are a resident of Manteo, North Carolina. Your first language is Mandarin, and you have a limited understanding of English. All responses you write should be either in Mandarin or in very simple English. You don’t have much community in your town and often feel isolated due to this language barrier. "
+agent11_prompt =  agent_11_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent11_response = generate_text(current_model, agent11_prompt)
 agent_response_list.append(agent1_response)
 
 # AGENT 12
-agent_12_description = "You are just a little guy. "
-agent12_prompt =  agent_12_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_12_description = "You are a resident of Manteo, North Carolina. You first language is Spanish, and you have a limited understanding of English. All responses you write should be either in Spanish or in very simple English. "
+agent12_prompt =  agent_12_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent12_response = generate_text(current_model, agent12_prompt)
 agent_response_list.append(agent12_response)
 
 # AGENT 13
-agent_13_description = "You are just a little guy. "
-agent13_prompt =  agent_13_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_13_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent13_prompt =  agent_13_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent13_response = generate_text(current_model, agent13_prompt)
 agent_response_list.append(agent13_response)
 
 # AGENT 14
-agent_14_description = "You are just a little guy. "
-agent14_prompt =  agent_14_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_14_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent14_prompt =  agent_14_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent14_response = generate_text(current_model, agent14_prompt)
 agent_response_list.append(agent14_response)
 
 # AGENT 15
-agent_15_description = "You are just a little guy. "
-agent15_prompt =  agent_15_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_15_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent15_prompt =  agent_15_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent15_response = generate_text(current_model, agent15_prompt)
 agent_response_list.append(agent15_response)
 
 # AGENT 16
-agent_16_description = "You are just a little guy. "
-agent16_prompt = agent_16_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_16_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent16_prompt = agent_16_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent16_response = generate_text(current_model, agent16_prompt)
 agent_response_list.append(agent16_response)
 
 # AGENT 17
-agent_17_description = "You are just a little guy. "
-agent17_prompt =  agent_17_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_17_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. You have two young kids. "
+agent17_prompt =  agent_17_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent17_response = generate_text(current_model, agent17_prompt)
 agent_response_list.append(agent17_response)
 
 # AGENT 18
-agent_18_description = "You are just a little guy. "
-agent18_prompt =  agent_18_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_18_description = "You are a resident of Manteo, North Carolina. You are a resident of Manteo, North Carolina. You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. You have two young kids. "
+agent18_prompt =  agent_18_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent18_response = generate_text(current_model, agent18_prompt)
 agent_response_list.append(agent18_response)
 
 # AGENT 19
-agent_19_description = "You are just a little guy. "
-agent19_prompt =  agent_19_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_19_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. You have two young kids. "
+agent19_prompt =  agent_19_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent19_response = generate_text(current_model, agent19_prompt)
 agent_response_list.append(agent19_response)
 
 # AGENT 20
-agent_20_description = "You are just a little guy. "
-agent20_prompt =  agent_20_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_20_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent20_prompt =  agent_20_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent20_response = generate_text(current_model, agent20_prompt)
 agent_response_list.append(agent20_response)
 
 # AGENT 21
-agent_21_description = "You are just a little guy. "
-agent21_prompt =  agent_21_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_21_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent21_prompt =  agent_21_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent21_response = generate_text(current_model, agent21_prompt)
 agent_response_list.append(agent21_response)
 
 # AGENT 22
-agent_22_description = "You are just a little guy. "
-agent22_prompt =  agent_22_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_22_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent22_prompt =  agent_22_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent22_response = generate_text(current_model, agent22_prompt)
 agent_response_list.append(agent22_response)
 
 # AGENT 23
-agent_23_description = "You are just a little guy. "
-agent23_prompt =  agent_23_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_23_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent23_prompt =  agent_23_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent23_response = generate_text(current_model, agent23_prompt)
 agent_response_list.append(agent23_response)
 
 # AGENT 24
-agent_24_description = "You are just a little guy. "
-agent24_prompt =  agent_24_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_24_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. "
+agent24_prompt =  agent_24_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent24_response = generate_text(current_model, agent24_prompt)
 agent_response_list.append(agent24_response)
 
 # AGENT 25
-agent_25_description = "You are just a little guy. "
-agent25_prompt =  agent_25_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_25_description = "You are a resident of Manteo, North Carolina. You have lived here for a few years and seen one hurricane here before. You are young, but have a car, money, support, and a family here in Manteo. "
+agent25_prompt =  agent_25_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent25_response = generate_text(current_model, agent25_prompt)
 agent_response_list.append(agent25_response)
 
 # AGENT 26
-agent_26_description = "You are just a little guy. "
-agent26_prompt =  agent_26_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_26_description = "You are a resident of Manteo, North Carolina. You have lived here for a few years and seen one hurricane here before. You are young, but have a car, money, support, and a family here in Manteo. "
+agent26_prompt =  agent_26_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent26_response = generate_text(current_model, agent26_prompt)
 agent_response_list.append(agent26_response)
 
 # AGENT 27
-agent_27_description = "You are just a little guy. "
-agent27_prompt =  agent_27_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_27_description = "You are a resident of Manteo, North Carolina. You have lived here for a few years and seen one hurricane here before. You are young, but have a car, money, support, and a family here in Manteo. "
+agent27_prompt =  agent_27_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent27_response = generate_text(current_model, agent27_prompt)
 agent_response_list.append(agent27_response)
 
 # AGENT 28
-agent_28_description = "You are just a little guy. "
-agent28_prompt =  agent_28_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_28_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. No hurricanes have cause major damage to your property, so you don’t often think evacuating is needed. You’re not afraid to be vocal about this decision. "
+agent28_prompt =  agent_28_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent28_response = generate_text(current_model, agent28_prompt)
 agent_response_list.append(agent28_response)
 
 # AGENT 29
-agent_29_description = "You are just a little guy. "
-agent29_prompt =  agent_29_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
+agent_29_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You do not trust the government, their weather warnings, or their hurricane evacuation statements. You think these alerts are designed as a conspiracy to hurt hardworking Americans like yourself. "
+agent29_prompt =  agent_29_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not. "
 agent29_response = generate_text(current_model, agent29_prompt)
 agent_response_list.append(agent29_response)
 
 # AGENT 30
-agent_30_description = "You are just a little guy. "
+agent_30_description = "You are a resident of Manteo, North Carolina. You have lived here for many years and seen many hurricanes here before. You have a car, money, support, and a family here in Manteo. You are a homeowner and very protective of your house. Evacuating makes you nervous because people could loot or steal from your property. "
 agent30_prompt =  agent_30_description + "You receive the following evacuation message on your phone as a wireless emergency alert: " + evacuation_message + "Describe your understanding of the situation in less than 500 characters. Also mention if you're going to evacuate or not."
 agent30_response = generate_text(current_model, agent30_prompt)
 agent_response_list.append(agent30_response)
