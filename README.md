@@ -8,7 +8,7 @@
 
 (4) Open your terminal and CD into the file that the code is stored in (i.e. Evacuation-Social-Simulation-Component-[your_branch_name] wherever it is located on your device or tied to Github).
 
-(5) On this branch of the code, you should have a document called "your_list_of_prompts.md". This document will have 10 prompts saved as strings under variable names. 
+(5) On this branch of the code, you should have a document called "your_list_of_prompts.md". This document will have 20 prompts (10 for each of your available machines) saved as strings under variable names. 
 
 (6) Copy the prompt string (only the string, not the variable name) and past it over the existing prompt in the evac_mess.py file. This should mean evacuation_message = the prompt string you're starting with. Save all files. 
 
