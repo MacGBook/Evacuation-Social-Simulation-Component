@@ -1,2 +1,2 @@
 #Set the evacuation message to be used as a string:
-evacuation_message = "There's a bad hurricane coming. You need to evacuate!" 
+evacuation_message = "Flash Flood Warning: Manteo, NC. Serious threat with 3-6 inches more rain expected. High risk of flash flooding - life-threatening. Move to higher ground NOW - action should be completed by 5PM. To stay safe, avoid walking or driving through flood waters. This alert expires at 9 30PM today. From Wilmington, NC Emergency Management."
