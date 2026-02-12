@@ -1,20 +1,2 @@
 #Set the evacuation message to be used as a string:
-evacuation_message = "This is an Emergency Alert from the Wilmington National Weather Service office. FLASH " \
-"FLOOD WARNING. This is NOT a test. Manteo and the surrounding region are IN IMMEDIATE " \
-"DANGER from dangerous floodwaters due to Hurricane Florence. Up to 26 inches of rain have " \
-"fallen already and an additional 3 to 6 inches of rainfall can be expected. Rain is " \
-"falling at an alarming rate of 1 to 2 inches per hour. " \
-"This warning takes effect immediately as of 1:24 PM on Sunday, September 16th, 2018, and " \
-"will expire at 9:30 PM the same day. This warning is particularly for those residing in " \
-"the counties surrounding Wilmington, North Carolina, and other major cities and landmarks " \
-"in the affected region. " \
-"The threat of a flash flood is IMMINENT. The water level is expected to rise " \
-"significantly, causing severe flooding that will impact homes, roads and could potentially" \
-"endanger lives due to the excessive rainfall from Hurricane Florence. Immediate action is " \
-"needed on your part. " \
-"Urgent precautionary and preparedness actions you should take include: Move to higher " \
-"ground IMMEDIATELY. Do not attempt to cross floodwaters. Do not ignore roadblocks put in " \
-"place for your safety. Ensure your emergency kit is ready, including essentials like " \
-"water, food, medications, and important documents." \
-"PLEASE PROTECT YOURSELF AND YOUR FAMILY. TAKE ACTION NOW. This is a dire situation and " \
-"requires your immediate attention and response."
+evacuation_message = "Attention Residents of Manteo, North Carolina! This is an urgent FLASH FLOOD WARNING from the Wilmington, National Weather Service Office. Critical weather conditions from Hurricane Florence have activated Emergency Alert Systems. This message is of utmost importance and immediate action is required. As of 1 24 PM on Sunday, September 16th, 2018, torrential rain is creating life-threatening floodwaters in your vicinity. Up to 26 inches of rain have already soaked our region since Hurricane Florence made landfall, and the rain continues to fall at rates of 1 to 2 inches per hour. Another 3 to 6 inches of rain are anticipated to further exacerbate the serious flood conditions we are currently experiencing. This warning applies particularly to areas around Wilmington, North Carolina and surrounding counties. Be aware that other major cities and landmarks in close proximity will also be victim to these dangerous conditions. Flash flood conditions raise water levels rapidly - in this instance, due to the excessive rainfall. Early predictions show that the rising waterways may reach dangerous heights, pose life-threatning danger and cause transportation disruption. Here are the major actions you should take IMMEDIATELY: 1 DO NOT attempt to cross or drive through flooded roadways or paths. They are more dangerous than they appear. 2 Prepare for immediate evacuation if authorities indicate it is necessary or when water levels rise close to your area. 3 Gather essential items, important documents, medication, and emergency kits. 4 Inform family members, neighbors, and officials if you need assistance. This flash flood warning will remain in effect until 9 30 PM tonight. Note, conditions may change, stay ALERT for further updates and instructions from official channels. Remember, your safety is the priority. Act now!"
