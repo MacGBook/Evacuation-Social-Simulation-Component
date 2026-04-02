@@ -63,100 +63,28 @@ for list in int_list:
 
 agent1_list = []
 agent2_list = []
-agent3_list = []
 agent4_list = []
-agent5_list = []
 agent6_list = []
-agent7_list = []
-agent8_list = []
-agent9_list = []
 agent10_list = []
-agent11_list = []
-agent12_list = []
 agent13_list = []
-agent14_list = []
-agent15_list = []
-agent16_list = []
-agent17_list = []
-agent18_list = []
-agent19_list = []
-agent20_list = []
-agent21_list = []
-agent22_list = []
-agent23_list = []
-agent24_list = []
-agent25_list = []
-agent26_list = []
-agent27_list = []
-agent28_list = []
-agent29_list = []
-agent30_list = []
 
 list_of_agent_lists = []
 
 for lil_list in finalized_row_list:
     agent1_list.append(lil_list[0])
     agent2_list.append(lil_list[1])
-    agent3_list.append(lil_list[2])
-    agent4_list.append(lil_list[3])
-    agent5_list.append(lil_list[4])
-    agent6_list.append(lil_list[5])
-    agent7_list.append(lil_list[6])
-    agent8_list.append(lil_list[7])
-    agent9_list.append(lil_list[8])
-    agent10_list.append(lil_list[9])
-    agent11_list.append(lil_list[10])
-    agent12_list.append(lil_list[11])
-    agent13_list.append(lil_list[12])
-    agent14_list.append(lil_list[13])
-    agent15_list.append(lil_list[14])
-    agent16_list.append(lil_list[15])
-    agent17_list.append(lil_list[16])
-    agent18_list.append(lil_list[17])
-    agent19_list.append(lil_list[18])
-    agent20_list.append(lil_list[19])
-    agent21_list.append(lil_list[20])
-    agent22_list.append(lil_list[21])
-    agent23_list.append(lil_list[22])
-    agent24_list.append(lil_list[23])
-    agent25_list.append(lil_list[24])
-    agent26_list.append(lil_list[25])
-    agent27_list.append(lil_list[26])
-    agent28_list.append(lil_list[27])
-    agent29_list.append(lil_list[28])
-    agent30_list.append(lil_list[29])
+    agent4_list.append(lil_list[2])
+    agent6_list.append(lil_list[3])
+    agent10_list.append(lil_list[4])
+    agent13_list.append(lil_list[5])
 
 
 list_of_agent_lists.append(agent1_list)
 list_of_agent_lists.append(agent2_list)
-list_of_agent_lists.append(agent3_list)
 list_of_agent_lists.append(agent4_list)
-list_of_agent_lists.append(agent5_list)
 list_of_agent_lists.append(agent6_list)
-list_of_agent_lists.append(agent7_list)
-list_of_agent_lists.append(agent8_list)
-list_of_agent_lists.append(agent9_list)
 list_of_agent_lists.append(agent10_list)
-list_of_agent_lists.append(agent11_list)
-list_of_agent_lists.append(agent12_list)
 list_of_agent_lists.append(agent13_list)
-list_of_agent_lists.append(agent14_list)
-list_of_agent_lists.append(agent15_list)
-list_of_agent_lists.append(agent16_list)
-list_of_agent_lists.append(agent17_list)
-list_of_agent_lists.append(agent18_list)
-list_of_agent_lists.append(agent19_list)
-list_of_agent_lists.append(agent20_list)
-list_of_agent_lists.append(agent21_list)
-list_of_agent_lists.append(agent22_list)
-list_of_agent_lists.append(agent23_list)
-list_of_agent_lists.append(agent24_list)
-list_of_agent_lists.append(agent25_list)
-list_of_agent_lists.append(agent26_list)
-list_of_agent_lists.append(agent27_list)
-list_of_agent_lists.append(agent28_list)
-list_of_agent_lists.append(agent29_list)
-list_of_agent_lists.append(agent30_list)
 
 
 #break list structure up into mutiple prompts 
